@@ -6,14 +6,6 @@
     padding: 2em;
 }
 
-// h1 {
-//     font-family: $bleach;
-//     font-size: 20vw;
-//     letter-spacing: -15px;
-//     margin-bottom: -5vw;
-//     color: yellow;
-// }
-
 .description {
     padding: 0 2em;
     color: pink;
@@ -25,9 +17,24 @@
 }
 
 .logo {
+    @include rainbow;
     width: 350px;
+    height: 100px;
     margin-bottom: 1em;
+    background: linear-gradient(124deg, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #ff2400, #e81d1d);
+	background-size: 2000% 2000%;
+    -webkit-animation: rainbow 80s ease infinite;
+	-z-animation: rainbow 80s ease infinite;
+	-o-animation: rainbow 80s ease infinite;
+  	animation: rainbow 80s ease infinite;
+    -webkit-mask: url('/logo.svg') no-repeat center;
+    mask: url('/logo.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+
 }
+
+@include rainbow-keyframes;
 
 iframe {
     margin: 1em 0;
