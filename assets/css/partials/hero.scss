@@ -1,0 +1,53 @@
+.hero {
+    background-color: #222;
+    background-image: url('/gridmelt.png');
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+}
+
+// h1 {
+//     font-family: $bleach;
+//     font-size: 20vw;
+//     letter-spacing: -15px;
+//     margin-bottom: -5vw;
+//     color: yellow;
+// }
+
+.description {
+    padding: 0 2em;
+    color: pink;
+    text-align: center;
+
+    p {
+        max-width: 600px;
+    }
+}
+
+.logo {
+    // width: 80vw;
+}
+
+iframe {
+    margin: 1em 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.social {
+    margin: 2em 0 3em 0;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+    justify-content: space-around;
+    
+
+    i {
+        color: #FFFF33;
+        transition: all .1s ease-in;
+    }
+
+    i:hover {
+        color: paleturquoise;
+    }
+}
