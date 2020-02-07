@@ -1,10 +1,10 @@
 @mixin rainbow {
-    background: linear-gradient(180deg, paleturquoise , palegreen, #FFFF68,pink);
+    background: linear-gradient(90deg,pink, #FFFF68, paleturquoise , palegreen,);
 	background-size: 1000% 1000%;
-    -webkit-animation: rainbow 80s ease infinite;
-	-z-animation: rainbow 80s ease infinite;
-	-o-animation: rainbow 80s ease infinite;
-  	animation: rainbow 80s ease infinite;
+    -webkit-animation: rainbow 25s ease-in-out infinite;
+	-z-animation: rainbow 25s ease-in-out infinite;
+	-o-animation: rainbow 25s ease-in-out infinite;
+  	animation: rainbow 25s ease-in-out infinite;
 }
 
 @mixin rainbow-keyframes {
